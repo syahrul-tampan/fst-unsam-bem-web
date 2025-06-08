@@ -1,24 +1,226 @@
+
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fst-unsam-bem-web</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM FST UNSAM - Badan Eksekutif Mahasiswa Fakultas Sains dan Teknologi</title>
+    <meta name="description" content="Badan Eksekutif Mahasiswa Fakultas Sains dan Teknologi Universitas Samudra">
+    <link rel="icon" href="/lovable-uploads/d028b579-4752-4659-9666-b21d69bd8fcc.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="/lovable-uploads/d028b579-4752-4659-9666-b21d69bd8fcc.png" alt="BEM FST UNSAM Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>BEM FST</h1>
+                        <p>UNSAM</p>
+                    </div>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#news" class="nav-link">Berita</a></li>
+                    <li><a href="#programs" class="nav-link">Program Kerja</a></li>
+                    <li><a href="#profile" class="nav-link">Profil</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <meta property="og:title" content="fst-unsam-bem-web" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Badan Eksekutif Mahasiswa</h1>
+                    <h2 class="hero-subtitle">Fakultas Sains dan Teknologi</h2>
+                    <p class="hero-description">Universitas Samudra</p>
+                    <div class="hero-buttons">
+                        <a href="#news" class="btn btn-primary">Lihat Berita</a>
+                        <a href="#programs" class="btn btn-secondary">Program Kerja</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Tentang BEM FST UNSAM</h2>
+                        <p>Badan Eksekutif Mahasiswa (BEM) adalah lembaga eksekutif tertinggi di lingkungan universitas maupun fakultas. BEM-FT Unsam berkedudukan di Fakultas Teknik Universitas Samudra dan terbentuknya pada tanggal 05 juni 1992 kemudian berubah nama menjadi BEM FST-UNSAM pada tanggal 27 Januari 2025 dan berkedudukan di Fakultas Sains dan Teknologi Universitas Samudra.</p>
+                        <p>Terjadinya perubahan nama setelah 32 tahun berdiri dikarenakan adanya perubahan nama Fakultas, dari Fakultas Teknik menjadi Fakultas Sains dan Teknologi. BEM FST memiliki jumlah pengurus sebanyak 20 orang.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+        <!-- Vision Mission -->
+        <section class="vision-mission">
+            <div class="container">
+                <div class="vm-grid">
+                    <div class="vm-card">
+                        <h3>Visi</h3>
+                        <p>Mengembangkan dan meningkatkan minat akademik dan organisasi mahasiswa Fakultas Sains dan Teknologi. Serta menjadikan BEM FST sebagai badan eksekutif yang berintegritas.</p>
+                    </div>
+                    <div class="vm-card">
+                        <h3>Misi</h3>
+                        <ul>
+                            <li>Membantu mengembangkan potensi serta minat akademik dan organisasi mahasiswa.</li>
+                            <li>Meningkatkan kerjasama dan keharmonisan dengan IKA FT.</li>
+                            <li>Meningkatkan keharmonisan dan loyalitas sesama mahasiswa FTS.</li>
+                            <li>Meningkatkan integritas BEM dan seluruh mahasiswa FST.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news">
+            <div class="container">
+                <h2 class="section-title">Berita & Informasi</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=600&fit=crop" alt="Lomba Karya Tulis Ilmiah">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-date">8 Juni 2025</span>
+                            <h3>Lomba Karya Tulis Ilmiah: Inovasi Teknologi untuk Masa Depan</h3>
+                            <p>BEM FST UNSAM mengundang seluruh mahasiswa untuk berpartisipasi dalam Lomba Karya Tulis Ilmiah dengan tema "Inovasi Teknologi untuk Pembangunan Berkelanjutan".</p>
+                            <div class="news-meta">
+                                <span class="news-category">Lomba</span>
+                                <span class="news-tag">Akademik</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800&h=600&fit=crop" alt="Beasiswa Mahasiswa">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-date">5 Juni 2025</span>
+                            <h3>Informasi Beasiswa Prestasi Akademik 2025</h3>
+                            <p>Tersedia beasiswa prestasi akademik untuk mahasiswa FST UNSAM dengan berbagai kategori dan persyaratan yang telah ditentukan.</p>
+                            <div class="news-meta">
+                                <span class="news-category">Beasiswa</span>
+                                <span class="news-tag">Akademik</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="programs">
+            <div class="container">
+                <h2 class="section-title">Program Kerja</h2>
+                <div class="programs-grid">
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Donasi Korban Kebakaran</h3>
+                        <p>Program penggalangan dana dan bantuan untuk korban kebakaran di wilayah sekitar kampus. Mari bersama-sama membantu saudara kita yang membutuhkan.</p>
+                        <div class="program-status">
+                            <span class="status-badge active">Sedang Berlangsung</span>
+                        </div>
+                    </div>
+                    
+                    <div class="program-card">
+                        <div class="program-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Pengembangan Akademik</h3>
+                        <p>Program peningkatan kualitas akademik mahasiswa melalui workshop, seminar, dan pelatihan berbagai keterampilan.</p>
+                        <div class="program-status">
+                            <span class="status-badge planned">Direncanakan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="profile">
+            <div class="container">
+                <h2 class="section-title">Profil Organisasi</h2>
+                
+                <div class="profile-content">
+                    <div class="contact-info">
+                        <h3>Hubungi Kami</h3>
+                        <div class="contact-grid">
+                            <div class="contact-item">
+                                <i class="fab fa-instagram"></i>
+                                <span>@Bemfstunsam</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>bemteknikunsam.aceh@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-tiktok"></i>
+                                <span>@Bemfstunsam</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-youtube"></i>
+                                <span>BEM FAKULTAS SAINS DAN TEKNOLOGI</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <span>BEM FST UNSAM</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <a href="https://maps.google.com/?cid=16456346123908801610&entry=gps" target="_blank">Lokasi Kampus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/lovable-uploads/d028b579-4752-4659-9666-b21d69bd8fcc.png" alt="BEM FST UNSAM">
+                    <div>
+                        <h4>BEM FST UNSAM</h4>
+                        <p>Fakultas Sains dan Teknologi</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#news">Berita</a>
+                    <a href="#programs">Program Kerja</a>
+                    <a href="#profile">Profil</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BEM FST UNSAM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
