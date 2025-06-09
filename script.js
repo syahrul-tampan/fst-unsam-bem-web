@@ -2,7 +2,7 @@
 // Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Navigation toggle for mobile
-    const navToggle = document.querySelector('.nav-toggle');
+    const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.querySelector('.nav-menu');
 
     if (navToggle && navMenu) {
@@ -15,14 +15,25 @@ document.addEventListener('DOMContentLoaded', function() {
             
             console.log('Menu toggled:', navMenu.classList.contains('active'));
         });
+
+        // Alternative event listener for better compatibility
+        navToggle.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
     }
 
     // Close mobile menu when clicking on a link
     const navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-            navToggle.classList.remove('active');
+            if (navMenu && navToggle) {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            }
         });
     });
 
