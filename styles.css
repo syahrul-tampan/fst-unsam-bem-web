@@ -1,4 +1,6 @@
 
+/* ... keep existing code (reset, base styles, header, hero, about, vision-mission, news sections) */
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -404,7 +406,7 @@ body {
 
 .programs-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -444,6 +446,25 @@ body {
     color: #666;
     line-height: 1.6;
     margin-bottom: 1.5rem;
+}
+
+.program-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.program-bidang,
+.program-waktu {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.program-bidang {
+    color: #dc2626;
 }
 
 .program-status {
