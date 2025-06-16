@@ -1,6 +1,4 @@
 
-/* ... keep existing code (reset, base styles, header, hero, about, vision-mission, news sections) */
-
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -111,15 +109,18 @@ body {
     transition: transform 0.3s ease;
     background: none;
     border: none;
-    padding: 8px;
+    padding: 10px;
     z-index: 1001;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .nav-toggle span {
     width: 25px;
     height: 3px;
     background: #333;
-    transition: 0.3s;
+    transition: all 0.3s ease;
     transform-origin: center;
     display: block;
 }
@@ -676,15 +677,29 @@ body {
         height: calc(100vh - 80px);
         background: white;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         transition: left 0.3s ease;
         z-index: 999;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        padding-top: 2rem;
+        overflow-y: auto;
     }
 
     .nav-menu.active {
         left: 0;
+    }
+
+    .nav-menu li {
+        margin: 1rem 0;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        padding: 1rem;
+        display: block;
+        width: 200px;
+        text-align: center;
     }
 
     .nav-toggle {
@@ -693,6 +708,7 @@ body {
 
     .hero {
         background-position: center center;
+        padding: 100px 0 60px;
     }
 
     .hero-title {
@@ -769,5 +785,9 @@ body {
     .leadership-photo {
         width: 100px;
         height: 100px;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
     }
 }
