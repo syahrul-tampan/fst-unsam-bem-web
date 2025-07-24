@@ -3,6 +3,14 @@
 // Data berita - dalam implementasi nyata, ini bisa diambil dari database
 $news_data = [
     [
+        'date' => '10 Juni 2025',
+        'title' => 'Lomba Karya Tulis Ilmiah Online 2025',
+        'description' => 'Lomba Karya Tulis Ilmiah Online 2025 dengan tema "Inovasi Teknologi Berkelanjutan untuk Mendorong Indonesia Emas 2045". Pendaftaran dibuka hingga 6 Agustus 2025 dengan biaya 50K.',
+        'image' => '/lovable-uploads/ae13b164-3e01-4341-92d4-065516d95c4f.png',
+        'category' => 'Lomba',
+        'tag' => 'Akademik'
+    ],
+    [
         'date' => '8 Juni 2025',
         'title' => 'Donasi Korban Kebakaran di Langsa Kota',
         'description' => 'BEM FST UNSAM melakukan aksi kepedulian sosial dengan memberikan bantuan kepada korban kebakaran di Jl. Panglima Polem Gampong Jawa Belakang Lapas, Langsa Kota.',
