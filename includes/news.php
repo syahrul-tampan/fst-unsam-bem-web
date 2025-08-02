@@ -3,6 +3,14 @@
 // Data berita - dalam implementasi nyata, ini bisa diambil dari database
 $news_data = [
     [
+        'date' => '12 Juni 2025',
+        'title' => 'Lomba Karya Tulis Ilmiah Online 2025 - Detail Lengkap',
+        'description' => 'Lomba Karya Tulis Ilmiah Online 2025 dengan tema "Inovasi Teknologi Berkelanjutan untuk Mendorong Indonesia Emas 2045". Pendaftaran: 7 Juli - 6 Agustus 2025, Technical Meeting: 7 Agustus 2025, Pengumpulan Karya: 8 Agustus - 24 September 2025. Biaya pendaftaran 50K. Contact: 0812-6563-0408, 0812-6504-6733',
+        'image' => '/lovable-uploads/86cddfa7-361e-4e35-83dc-65d8e7143ca7.png',
+        'category' => 'Lomba',
+        'tag' => 'Akademik'
+    ],
+    [
         'date' => '10 Juni 2025',
         'title' => 'Lomba Karya Tulis Ilmiah Online 2025',
         'description' => 'Lomba Karya Tulis Ilmiah Online 2025 dengan tema "Inovasi Teknologi Berkelanjutan untuk Mendorong Indonesia Emas 2045". Pendaftaran dibuka 7 Juli - 6 Agustus 2025 dengan biaya 50K. Info: 0812-6563-0408',
