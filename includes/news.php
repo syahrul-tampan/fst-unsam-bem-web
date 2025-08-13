@@ -3,6 +3,14 @@
 // Data berita - dalam implementasi nyata, ini bisa diambil dari database
 $news_data = [
     [
+        'date' => '20 Juni 2025',
+        'title' => 'Lomba Karya Tulis Ilmiah Online 2025 - Pendaftaran Dibuka!',
+        'description' => 'Lomba Karya Tulis Ilmiah Online 2025 dengan tema "Inovasi Teknologi Berkelanjutan untuk Mendorong Indonesia Emas 2045". Pendaftaran: 7 Juli - 14 Agustus 2025, Technical Meeting: 15 Agustus 2025, Pengumpulan Karya: 16 Agustus - 24 September 2025, Penilaian: 23-30 September, Pengumuman Pemenang: 6-8 Oktober 2025. Biaya pendaftaran 50K. Link: https://forms.gle/1cwdF7FS4QEJTWho7. Contact: 0812-6563-0408, 0812-6504-6733. Email: bemteknikunsam.aceh@gmail.com',
+        'image' => '/lovable-uploads/8993410b-56c9-4609-86f2-e2dac266f52d.png',
+        'category' => 'Lomba',
+        'tag' => 'Akademik'
+    ],
+    [
         'date' => '15 Juni 2025',
         'title' => 'Info Lengkap Lomba Karya Tulis Ilmiah Online 2025',
         'description' => 'Informasi lengkap tentang Lomba Karya Tulis Ilmiah Online 2025. Ketentuan umum: peserta mahasiswa aktif D3/D4/S1, lomba bersifat individu/tim (maksimal 3 orang), wajib mengikuti seluruh rangkaian kegiatan. Link pendaftaran: https://forms.gle/1cwdF7FS4QEJTWho7. Contact: 0812-6563-0408, 0812-6504-6733',
