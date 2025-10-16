@@ -10,6 +10,12 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
 }
 
 .container {
@@ -136,6 +142,35 @@ body {
 
 .nav-toggle.active span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.theme-toggle:hover {
+    transform: rotate(20deg) scale(1.1);
+    color: #dc2626;
+}
+
+body.dark-mode .theme-toggle {
+    color: #fbbf24;
+}
+
+body.dark-mode .theme-toggle:hover {
+    color: #fcd34d;
 }
 
 /* Hero Section */
@@ -654,6 +689,87 @@ body {
     padding-top: 1rem;
     border-top: 1px solid #374151;
     color: #9ca3af;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .header {
+    background: rgba(26, 26, 26, 0.95);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .nav-link {
+    color: #e5e5e5;
+}
+
+body.dark-mode .nav-link:hover,
+body.dark-mode .nav-link.active {
+    color: #dc2626;
+}
+
+body.dark-mode .nav-toggle span {
+    background: #e5e5e5;
+}
+
+body.dark-mode .about {
+    background: #2a2a2a;
+}
+
+body.dark-mode .section-title,
+body.dark-mode .about-text h2,
+body.dark-mode .vm-card h3,
+body.dark-mode .program-card h3,
+body.dark-mode .news-content h3,
+body.dark-mode .leadership-info h4,
+body.dark-mode .contact-info h3,
+body.dark-mode .leadership-title {
+    color: #e5e5e5;
+}
+
+body.dark-mode .about-text p,
+body.dark-mode .vm-card p,
+body.dark-mode .vm-card li,
+body.dark-mode .program-card p,
+body.dark-mode .news-content p,
+body.dark-mode .leadership-info p,
+body.dark-mode .contact-item span,
+body.dark-mode .contact-item a,
+body.dark-mode .news-date,
+body.dark-mode .news-tag,
+body.dark-mode .program-bidang,
+body.dark-mode .program-waktu {
+    color: #b5b5b5;
+}
+
+body.dark-mode .vm-card,
+body.dark-mode .program-card,
+body.dark-mode .news-card,
+body.dark-mode .leadership-card,
+body.dark-mode .contact-item {
+    background: #2a2a2a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .vm-card:hover,
+body.dark-mode .program-card:hover,
+body.dark-mode .news-card:hover,
+body.dark-mode .leadership-card:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .news {
+    background: #2a2a2a;
+}
+
+body.dark-mode .profile {
+    background: #2a2a2a;
+}
+
+body.dark-mode .news-tag {
+    background: #3a3a3a;
+}
+
+body.dark-mode .nav-menu {
+    background: rgba(26, 26, 26, 0.98);
 }
 
 /* Animations */

@@ -29,6 +29,9 @@
                     <li><a href="index.php#programs" class="nav-link <?php echo ($current_page == 'programs') ? 'active' : ''; ?>">Program Kerja</a></li>
                     <li><a href="index.php#profile" class="nav-link <?php echo ($current_page == 'profile') ? 'active' : ''; ?>">Profil</a></li>
                 </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
                 <button class="nav-toggle" id="nav-toggle">
                     <span></span>
                     <span></span>
